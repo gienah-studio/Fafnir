@@ -24,7 +24,8 @@ public class Main {
         int[] nums5 = {-3,-1,1,2,3,6,8};
         int target = 2;
         System.out.println(LC704_Binary_Search.search1(nums5, target));
-        System.out.println(LC704_Binary_Search.search2(nums5,target));
+        System.out.println(LC704_Binary_Search.search2(nums5, target));
+//        System.out.println(LC704_Binary_Search.search3(nums5, target));
 
     }
 }
