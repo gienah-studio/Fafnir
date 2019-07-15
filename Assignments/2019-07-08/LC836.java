@@ -12,8 +12,7 @@ public class LC836 {
 		int a2 = rec2[2];
 		int b2 = rec2[3];
 		
-		if (b1 >= y2 || a1 >= x2 || b2 <= y1 || a2 <= x1)
-		{
+		if (b1 >= y2 || a1 >= x2 || b2 <= y1 || a2 <= x1) {
 			return false;
 		}
 		
