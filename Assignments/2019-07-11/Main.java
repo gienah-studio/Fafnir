@@ -3,9 +3,11 @@ package Coding.Training;
 import Coding.Training.LC2019_07_10.LC349_Efficient_Solution;
 import Coding.Training.LC2019_07_10.LC349_intersection;
 import Coding.Training.LC2019_07_11.LC704_Binary_Search;
+
 import Coding.Training.LC2019_07_12.LC350_Intersection_of_Two_Arrays;
 import Coding.Training.LC2019_07_13.Bubble_Sort;
 import Coding.Training.LC2019_07_13.Merge_Sort;
+
 
 public class Main {
 
@@ -23,6 +25,7 @@ public class Main {
 //        System.out.println(LC349_Efficient_Solution.LC349_Sorted(nums3, nums4));
 
         /*---------------2019.07.11-------------*/
+
        //LC704: Binary Search
        int[] nums5 = {-3,-1,1,2,3,6,8};
        int target = 2;
@@ -47,6 +50,13 @@ public class Main {
         // int[] nums_B = {5,3,10,1,12,3,11,15,-2};
         // System.out.println(Merge_Sort.mergeSort_ASC(nums_A,nums_B));
         // System.out.println(Merge_Sort.mergeSort_DESC(nums_A,nums_B));
+
+        //LC704: Binary Search
+        int[] nums5 = {-3,-1,1,2,3,6,8};
+        int target = 2;
+        System.out.println(LC704_Binary_Search.search1(nums5, target));
+        System.out.println(LC704_Binary_Search.search2(nums5,target));
+
 
     }
 }
