@@ -1,1 +1,6 @@
 .DS_Store
+API_jdbc/\.mvn/wrapper/maven-wrapper\.jar
+
+API_jdbc/\.mvn/wrapper/maven-wrapper\.properties
+
+API_jdbc/\.mvn/wrapper/MavenWrapperDownloader\.java
